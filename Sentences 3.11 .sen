@@ -1,0 +1,14 @@
+7.2.4.28445macs:Mac OS X10.14.6SntFC1582408480606D1582410396497S965210LeftOf(c, b) & (d = d)
+; We know this is true in Kleene's World since the 
+; first conjunct can be seen to be true and the 
+; second must be true as long as the name 'd' is in 
+; use.BackOf(b, a) | BackOf(a, b)
+;We know this is true in Kleene's World since we know that at least one of these are true. The first conjuction is false since there is nothing in front of  the block 'b' but since we know that all the names are being used, there is a possibility that 'a' is behind 'b'.  Dodec(c) & LeftOf(d, a)
+;We can't know this for sure. But there is certainly a possibiity for it to be true. LeftOf(d, a) & Cube(c)  
+;We know for sure that the second part this - Cube(c) - is true. But we can't tell if 'd' is left of 'a' althought it is not impossible. Between(e, f, a) | Cube(c) 
+;This is true for sure as we can see that Cube(c) is true and since this is a disjunction, only one of them have to be true. LeftOf(e, f) | RightOf(e, f) 
+;Although we can't know for sure, it is possible for this sentence to be true as only one of them have to be true. They could also be in the column which would make this false.~LeftOf(e, a) | ~RightOf(e, a) 
+;This could be true as 'e' and 'a' could be in the same column.c = b | c # b 
+;This is true since it is a disjunction and we can see  that c and b are not the same object in this world. e = f | e # f 
+;We don't know this but it could be true. ~Large(a) 
+;We don't know this for sure, but it could be true. s=238120;

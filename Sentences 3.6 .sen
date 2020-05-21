@@ -1,0 +1,11 @@
+7.2.4.28445macs:Mac OS X10.14.6SntFC1582391373488D1582392495192S964110Tet(f)  &  Small(f)
+;falseTet(f) & Large(f)
+;trueTet(f)  & ~Small(f)
+;trueTet(f)  & ~Large(f)
+;false~Tet(f)  & ~Small(f)
+;false~Tet(f)  & ~Large(f)
+;false~(Tet(f)  & Small(f))
+;true~(Tet(f)  & Large(f))
+;false~(~Tet(f)  & ~Small(f))
+;true~(~Tet(f)  & ~Large(f))
+;trues=53920;

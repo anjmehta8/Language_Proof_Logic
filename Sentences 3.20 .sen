@@ -1,0 +1,1 @@
+7.2.4.28445macs:Mac OS X10.14.6SntFC1582474501501D1582475292672S968010~FrontOf(f, a)RightOf(f, a) & LeftOf(f, b)BackOf(f, a) | Smaller(f, a)Between(e, c, a ) & Between(d, c, a)~Larger(e, c) & ~Larger(d, c)~Larger(e, d) &~Smaller(e, d)Smaller(c, a) & Larger(c, e)FrontOf(c, f) & Smaller(c, f)SameRow(b, a) & ~SameCol(b, f)~SameCol(e, d) & ~SameCol(e, c)s=57902;
