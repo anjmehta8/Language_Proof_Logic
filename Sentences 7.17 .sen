@@ -1,0 +1,1 @@
+7.2.4.28445macs:Mac OS X10.14.6SntFC1585984449884D1585985696807S96065Between(a, c, d) % Between(b, c, e)e # f $ (Adjoins(b, c) & Adjoins(e, b) & Adjoins(b, f))SameCol(e, f) $ Smaller(e, e)~((SameRow(e, b) & SameRow(b, c) & SameRow(c, f)) $ ~Between(a, c, d))LeftOf(e, b) $ RightOf(a, e)s=47983;

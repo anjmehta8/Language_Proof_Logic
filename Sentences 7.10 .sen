@@ -1,0 +1,6 @@
+7.2.4.28445macs:Mac OS X10.14.6SntFC1585972058515D1585972829050D1585972902424D1585972940062D1585972971131S1587920Cube(e) $ Cube(f)Cube(d) $ Tet(f)Dodec(d) $ Tet(f)Dodec(d) $ Cube(f)SameSize(a, b) $ SameRow(a, b)SameSize(c, b) $ SameSize(a, c)SameSize(a, c) $ SameSize(a, b)SameSize(a, c) $ SameSize(a, d)(Tet(a) & Cube(e)) $ Dodec(d)LeftOf(a, b) $ RightOf(b, a)LeftOf(e, d) $ RightOf(d, e)(LeftOf(a, c) & LeftOf(c, d)) $ Between(c, a, b)Cube(c) $ (Large(c) $ (Cube(c) & Large(c)))
+; Make sure you understand why this sentence is
+; true.  Try playing the game committed to False.   ~(Tet(a) $ Large(a)) $ (Tet(a) & ~Large(a))Large(d) % Small(a)Dodec(e) % Large(d)Adjoins(a, f) % Adjoins(a, d) ~(Large(e) % Small(d))(Small(c) & (Cube(a) | Cube(d))) % 
+   ((Small(c) & Cube(a)) | (Small(c) & Cube(d)))Cube(b) % (Cube(c) % Large(d))
+; This kind of sentence is hard to understand.  Play 
+; the game to help you understand it better. s=153399;

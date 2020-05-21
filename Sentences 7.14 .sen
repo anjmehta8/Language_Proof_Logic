@@ -1,0 +1,16 @@
+7.2.4.28445macs:Mac OS X10.14.6SntFC1585978859593D1585980043618S96069Tet(a) | Tet(b) | Tet(c)
+; So at least one of a, b, and c is a Tet.  Reason by 
+; cases using the next three sentences to figure out
+; the shapes of the three blocks.Tet(a) $ (Tet(b) & Tet(c))
+; not tet a or tet b and tet cTet(b) $ (Cube(a) & Tet(c))
+; not tet b or cube a and tet cTet(c) $ (Cube(a) & Dodec(b))
+; not tet c or cube a and dodec bLarger(a, b) % Larger(b, c)
+;both must be true or falseLarger(c, b) % Larger(b, a)
+; both must be true or falseSameSize(a, c)
+; Use this with 5 and 6 to determine the relative 
+; sizes of a, b, and c.
+; must be trueSmall(a) $ Medium(b)
+; Using 8 and 9 you can now figure out their absolute 
+; sizes.
+; not small a or medium b Medium(a) $ Small(b)
+; not medium a or small bs=122618;
