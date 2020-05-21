@@ -1,0 +1,1 @@
+7.2.4.28445macs:Mac OS X10.14.6SntFC1583859098338D1583859505201S95195LeftOf(a, b)  | RightOf(a, b)   BackOf(a, b)  | ~LeftOf(a, b)FrontOf(a, b)  | ~RightOf(a, b)  SameCol(a, b)  & SameRow(c, b)LeftOf (b, c)s=33480;
